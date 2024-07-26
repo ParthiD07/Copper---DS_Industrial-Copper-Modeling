@@ -151,7 +151,7 @@ if menu == 'Selling Price Prediction':
             Quantity_Tons_Log=np.log(Quantity)
             Thickness_Log=np.log(Thickness)
 
-            #predict the status with classifier model
+            #predict the status with regressor model
             user_data=np.array([[Customer_ID, Country,Item_type_Encoded,Application, Width, Product_Ref,
                                 Delivery_Time_Taken, Quantity_Tons_Log, Thickness_Log,Status_Encoded]])
             
