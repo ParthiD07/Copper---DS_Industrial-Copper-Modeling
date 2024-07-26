@@ -40,11 +40,6 @@ if menu == 'Project Overview':
 - **Feature Engineering:** Create and utilize new features to enhance model performance.
 - **Web Application Development:** Build and deploy an interactive web application using Streamlit to showcase machine learning models.
 - **Domain-Specific Insights:** Understand manufacturing challenges and explore how machine learning can address them effectively.""")
-    
-    st.subheader(':violet[Reference:]')
-    st.markdown('<h5>This Project - Industrial Copper Modelling was done by myself, Parthiban D</h5>', unsafe_allow_html=True)
-    st.markdown('<h5>To refer codes of this project,click on the below button </h5>', unsafe_allow_html=True)
-    st.link_button('Go to Github','https://github.com/ParthiD07') 
 
 
 # User input Values:
